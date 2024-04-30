@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        kt: ['"Jersey 25"', "sans-serif"],
+        jersey: ['"Jersey 25"', "sans-serif"],
+        barlow: ['"Barlow Condensed"', "sans-serif"],
       },
     },
   },
