@@ -7,11 +7,11 @@ export default function Content() {
   const position = "Web Developer";
   return (
     <>
-      <div className="flex items-center mt-10 text-white justify-between pr-[6rem] pl-20">
-        <div className="flex items-start flex-col h-[25rem] w-[30rem] gap-2 justify-center">
+      <div className="flex items-center mt-10 text-white justify-between sm:flex-row flex-col-reverse">
+        <div className="h-[25rem] sm:w-[380px] text-center">
           <h1 className="text-2xl font-serif font-bold">{name}</h1>
           <h3 className="text-6xl font-kt font-normal">{position}</h3>
-          <p className="w-[90%] text-lg">{about}</p>
+          <div className="text-lg mt-2">{about}</div>
           <button className="bg-cyan-800 rounded-full text-center px-3 py-1.5">
             Instagram
           </button>
