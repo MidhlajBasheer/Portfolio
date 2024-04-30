@@ -24,6 +24,7 @@ export default function Navbar() {
         <div class="w-9 h-1 mt-2 bg-white" />
         <div class="w-9 h-1 mt-2 bg-white" />
         <div class="w-9 h-1 mt-2 bg-white" />
+        <div class="w-9 h-1 mt-2 bg-white" />
       </div>
     </div>
   );
