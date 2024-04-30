@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Jersey+25&family=Secular+One&family=Tac+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

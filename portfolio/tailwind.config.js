@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         jersey: ['"Jersey 25"', "sans-serif"],
         barlow: ['"Barlow Condensed"', "sans-serif"],
+        tac: ['"Tac One", sans-serif'],
+        cuprum: ['"Cuprum", sans-serif'],
+        secular: ['"Secular One", sans-serif'],
+        blinker: ['"Blinker", sans-serif;'],
       },
     },
   },
