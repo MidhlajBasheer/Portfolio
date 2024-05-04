@@ -16,7 +16,7 @@ export default function Navbar() {
             <a href="/">Projects</a>
           </li>
         </ul>
-        <div className="bg-cyan-800 rounded-full px-3 py-1.5 cursor-pointer">
+        <div className="bg-green-800 rounded-full px-3 py-1.5 cursor-pointer">
           <p className="text-white">Contact</p>
         </div>
       </div>

@@ -8,11 +8,11 @@ export default function Content() {
   return (
     <>
       <div className="flex flex-col-reverse items-center mt-10 text-white justify-around sm:flex-row">
-        <div className="h-[25rem] sm:w-[380px] text-center pt-5 sm:text-start">
-          <h1 className="text-2xl font-secular">{name}</h1>
-          <h3 className="text-6xl font-jersey font-normal">{position}</h3>
-          <div className="text-lg mt-2 mb-2 font-blinker">{about}</div>
-          <button className="bg-cyan-800 rounded-full text-center px-3 py-1.5 font-cuprum text-xl">
+        <div className="h-[25rem] sm:w-[410px] text-center pt-5 sm:text-start">
+          <h1 className="text-2xl font-blinker font-semibold">{name}</h1>
+          <h3 className="text-5xl sm:text-7xl font-jersey">{position}</h3>
+          <div className="text-xl mt-2 mb-2 font-blinker sm:pb-5">{about}</div>
+          <button className="border-2 bg-gradient-to-r from-red-950 to-blue-950 rounded-full text-center px-3 py-1.5 font-cuprum text-xl hover:border-orange-500 transition duration-300 ">
             Instagram
           </button>
         </div>
