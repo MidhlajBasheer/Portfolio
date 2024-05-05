@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div id="experience" className="pb-7 sm:mx-7 sm:mt-7">
+    <div id="experience" className="sm:m-7 mb-20">
       <h1 className="text-center sm:text-start font-blinker text-2xl sm:ml-10 mb-3 sm:text-3xl sm:mb-6 text-white">
         Professional Experience
       </h1>
-      <div className="flex flex-col sm:flex-row gap-8 sm:gap-14 sm:mx-10 sm:mb-10 text-white mb-4">
+      <div className="flex flex-col sm:flex-row gap-8 sm:gap-14 sm:mx-10 sm:mb-10 text-white mb-4 justify-center">
         <img
           className="max-w-md rounded-3xl hidden sm:flex"
           src="./assets/images/soften.jpg"
@@ -30,7 +30,7 @@ export default function Experience() {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-8 sm:gap-14 sm:mx-10 text-white">
+      <div className="flex flex-col sm:flex-row gap-8 sm:gap-14 sm:mx-10  text-white justify-center">
         <div className="h-100vh w-100vh bg-sky-950 rounded-3xl p-4 hover:bg-sky-900">
           <p className="text-xl sm:text-3xl sm:smy-3 text-center font-mono">
             Odox Softhub LLP

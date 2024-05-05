@@ -8,15 +8,20 @@ export default function Content() {
   return (
     <>
       <div
-        id="content"
-        className="flex flex-col-reverse items-center pt-[90px] text-white justify-around sm:flex-row"
+        id="home"
+        className="flex flex-col-reverse items-center pt-[60px] sm:pt-[90px] text-white justify-around sm:flex-row"
       >
         <div className="h-[25rem] sm:w-[410px] text-center pt-5 sm:text-start">
           <h1 className="text-2xl font-blinker font-semibold">{name}</h1>
           <h3 className="text-5xl sm:text-7xl font-jersey">{position}</h3>
           <div className="text-xl mt-2 mb-2 font-blinker sm:pb-5">{about}</div>
-          <button className="border-2 bg-gradient-to-r from-red-950 to-blue-950 rounded-full text-center px-3 py-1.5 font-cuprum text-xl hover:border-orange-500 transition duration-300 ">
-            Instagram
+          <button className="bg-gradient-to-r from-red-950 to-blue-950  rounded-3xl border-2 border-black text-center px-3 py-1.5 font-cuprum text-xl hover:border-white transition duration-300 ">
+            <a
+              href="/assets/files/Midhlaj-Basheer.pdf"
+              download="Midhlaj Basheer.pdf"
+            >
+              Download Resume
+            </a>
           </button>
         </div>
         <div>
