@@ -7,7 +7,10 @@ export default function Content() {
   const position = "Web Developer";
   return (
     <>
-      <div className="flex flex-col-reverse items-center mt-10 text-white justify-around sm:flex-row">
+      <div
+        id="content"
+        className="flex flex-col-reverse items-center pt-[90px] text-white justify-around sm:flex-row"
+      >
         <div className="h-[25rem] sm:w-[410px] text-center pt-5 sm:text-start">
           <h1 className="text-2xl font-blinker font-semibold">{name}</h1>
           <h3 className="text-5xl sm:text-7xl font-jersey">{position}</h3>

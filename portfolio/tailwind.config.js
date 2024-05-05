@@ -11,6 +11,7 @@ module.exports = {
         cuprum: ['"Cuprum", sans-serif'],
         secular: ['"Secular One", sans-serif'],
         blinker: ['"Blinker", sans-serif;'],
+        poetson: ['"Poetsen One", sans-serif;'],
       },
     },
   },

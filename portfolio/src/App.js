@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className=" bg-gradient-to-r from-black to-slate-900 h-fit w-fit pl-6 pr-6 cursor-default">
-        <Navbar />
+        <Navbar className="fixed" />
         <Content />
         <Experience />
       </div>

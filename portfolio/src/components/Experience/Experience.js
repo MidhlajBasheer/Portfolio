@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div className=" sm:mx-7 sm:mt-7">
+    <div id="experience" className="pb-7 sm:mx-7 sm:mt-7">
       <h1 className="text-center sm:text-start font-blinker text-2xl sm:ml-10 mb-3 sm:text-3xl sm:mb-6 text-white">
         Professional Experience
       </h1>
