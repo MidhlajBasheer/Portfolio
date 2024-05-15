@@ -5,8 +5,8 @@ export default function Navbar() {
   const [menu, showMenu] = useState(true);
 
   return (
-    <div className="pt-4 flex text-lg text-white justify-between sm:ml-10 sm:mr-20 fixed top-0 left-8 right-8 z-10 sm:left-0 sm:right-0">
-      <h1 className="text-4xl font-tac">LEXY</h1>
+    <div className="pt-4 flex text-lg text-white justify-between sm:ml-10 sm:mr-20 fixed top-0 left-8 right-8 sm:left-0 sm:right-0 ">
+      <h1 className="text-4xl font-tac sm:ml-9">LEXY</h1>
       <div className="space-x-8 items-center hidden sm:flex font-secular">
         <ul className="space-x-8 sm:flex">
           <li className="hover:scale-110 duration-300">
@@ -30,7 +30,7 @@ export default function Navbar() {
               to="projects"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
             >
               Projects
@@ -39,10 +39,10 @@ export default function Navbar() {
         </ul>
         <div className="bg-green-800 rounded-full px-3 py-1.5 cursor-pointer hover:bg-green-600">
           <Link
-            to="contact"
+            to="footer"
             spy={true}
             smooth={true}
-            offset={200}
+            offset={-50}
             duration={500}
             className="text-white"
           >
@@ -81,7 +81,7 @@ export default function Navbar() {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-40}
                 duration={500}
               >
                 Experience
@@ -92,15 +92,17 @@ export default function Navbar() {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-50}
                 duration={500}
               >
                 Projects
               </Link>
             </li>
           </ul>
-          <div className="bg-green-800 rounded-full mt-2 mx-3 px-3 py-1.5 cursor-pointer">
-            <p className="text-white text-center">Contact</p>
+          <div className="bg-green-800 rounded-full mt-2 mx-3 px-3 py-1.5 cursor-pointer text-center">
+            <Link to="footer" spy={true} smooth={true} offset={-50}>
+              Contact
+            </Link>
           </div>
         </div>
       )}
