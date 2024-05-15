@@ -9,13 +9,15 @@ export default function Content() {
     <>
       <div
         id="home"
-        className="flex flex-col-reverse items-center pt-[60px] sm:pt-[90px] text-white justify-around sm:flex-row px-6 pb-14 sm:pb-0 "
+        className="flex flex-col-reverse items-center pt-[60px] sm:pt-[90px] text-white justify-around sm:flex-row xs:flex-row px-6 pb-14 sm:pb-0 xs:pt-[90px]"
       >
-        <div className="h-[25rem] sm:w-[410px] text-center pt-5 sm:text-start">
+        <div className="h-[25rem] xs:w-[410px] sm:w-[410px] text-center pt-5 sm:text-start xs:text-start">
           <h1 className="text-2xl font-blinker font-semibold">{name}</h1>
           <h3 className="text-5xl sm:text-7xl font-jersey">{position}</h3>
-          <div className="text-xl mt-2 mb-5 sm:mb-2 font-blinker">{about}</div>
-          <div className="flex flex-wrap justify-center items-center sm:flex-nowrap sm:justify-normal sm:ml-13 gap-5 mb-4 sm:mb-7">
+          <div className="text-xl mt-2 mb-5 xs:mb-3 sm:mb-2 font-blinker">
+            {about}
+          </div>
+          <div className="flex flex-wrap justify-center xs:justify-start items-center sm:flex-nowrap sm:justify-normal sm:ml-13 gap-5 sm:mb-7">
             <img
               className="hover:scale-125 h-[40px] sm:h-[50px] duration-300"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
@@ -47,12 +49,12 @@ export default function Content() {
               alt=""
             />
             <img
-              className="hover:scale-125 h-[70px]  bg-red duration-300"
+              className="hover:scale-125 h-[70px] bg-red duration-300"
               src="./assets/images/content/django.png"
               alt=""
             />
           </div>
-          <button class="bg-gradient-to-r from-red-900 to-orange-950 rounded-3xl border-[1px] border-black text-center px-3 py-1.5 font-cuprum text-xl hover:border-white transition duration-300">
+          <button class="bg-gradient-to-r from-red-900 to-orange-950 rounded-3xl border-[1px] border-black text-center px-3 py-1.5 font-cuprum text-xl hover:border-white transition duration-300 xs:mt-2">
             <a
               href="/assets/files/Midhlaj-Basheer.pdf"
               download="Midhlaj Basheer.pdf"

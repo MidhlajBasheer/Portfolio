@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer.js";
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-r from-black to-slate-900 h-full w-full sm:h-full sm:w-screen cursor-default ">
+      <div className="bg-gradient-to-r from-black to-slate-900 h-full w-full sm:h-full sm:full cursor-default ">
         <Navbar />
         <Content />
         <Experience />
