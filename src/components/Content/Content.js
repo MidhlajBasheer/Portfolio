@@ -13,7 +13,7 @@ export default function Content() {
       >
         <div className="h-[25rem] xs:w-[410px] sm:w-[410px] text-center pt-5 sm:text-start xs:text-start">
           <h1 className="text-2xl font-blinker font-semibold">{name}</h1>
-          <h3 className="text-5xl sm:text-7xl font-jersey">{position}</h3>
+          <h3 className="text-5xl sm:text-7xl font-jersey ">{position}</h3>
           <div className="text-xl mt-2 mb-5 xs:mb-3 sm:mb-2 font-blinker">
             {about}
           </div>
@@ -24,7 +24,7 @@ export default function Content() {
               alt=""
             />
             <img
-              className="nexthover:scale-125 w-[40px] h-[50px] sm:w-[50px] sm:h-[50px] duration-300"
+              className="hover:scale-125 w-[40px] h-[50px] sm:w-[50px] sm:h-[50px] duration-300"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
               alt=""
             />

@@ -30,7 +30,7 @@ export default function Experience() {
       <div className="flex font-blinker justify-center text-2xl text-black sm:text-3xl pt-2 sm:pt-5 gap-2 pb-1 sm:pb-0 sm:gap-3 items-center">
         Get in Touch
         <img
-          className=" h-10 ml-1sm:ml-2 w-10"
+          className="h-10 ml-1sm:ml-2 w-10 container"
           src="./assets/images/footer/connect.png"
           alt=""
         />
